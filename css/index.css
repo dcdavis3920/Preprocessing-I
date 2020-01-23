@@ -188,13 +188,15 @@ p {
   border: red solid 2px;
   justify-content: space-between;
   width: 80%;
-  margin: 5% auto 5% auto;
+  margin: 0 auto 0 auto;
+  padding: 5%;
 }
-.profileh2 {
+.profile h2 {
   font-size: 2.5rem;
 }
-.profilep {
+.profile p {
   font-size: 2rem;
+  margin: 5% 0 0 0;
 }
 .Lambda {
   display: flex;
@@ -207,28 +209,29 @@ p {
   margin: 10% 0 0 0;
   width: 50%;
 }
-.Lambda .botsec .eduh2 {
+.Lambda .botsec h2 {
   font-size: 3rem;
   margin: 4% 0;
 }
-.edh2,
-.web {
+.Lambda .botsec h3 {
   font-size: 2.5rem;
   margin: 2% 0;
 }
-.edp1,
-.fullstack {
+.Lambda .botsec p {
   font-size: 2rem;
   margin: 2% 0;
 }
-.experience {
+.Lambda .experience {
   width: 50%;
   border: blue solid 2px;
 }
-.experience li {
+.Lambda .experience p {
   font-size: 2rem;
   margin: 2% 0 2% 0;
 }
-.workexperience {
+.Lambda .experience h3 {
+  font-size: 2.5rem;
+}
+.Lambda .experience .workexperience {
   font-size: 2.5rem;
 }

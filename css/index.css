@@ -139,9 +139,14 @@ h1,
 h2,
 h3 {
   font-family: 'Open Sans', sans-serif;
+  color: lightgreen;
 }
 p {
   font-family: 'Nunito', sans-serif;
+  color: lightgreen;
+}
+body {
+  background: teal;
 }
 .nav {
   display: flex;
